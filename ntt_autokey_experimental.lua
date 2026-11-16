@@ -1,7 +1,7 @@
 -- NTT AUTOKEY EXPERIMENT (no VM/bytecode/checksum modifications)
 -- This is NOT a license bypass. You must use your own currently valid key.
 -- Replace the placeholder below LOCALLY before testing. Never share a file containing your key.
-local __NTT_VALID_KEY = "PASTE_YOUR_VALID_KEY_HERE"
+local __NTT_VALID_KEY = "1234567"
 local __NTT_KEY_PLACEHOLDER = "PASTE_YOUR_VALID_KEY_HERE"
 
 if __NTT_VALID_KEY ~= __NTT_KEY_PLACEHOLDER and type(task) == "table" and type(task.spawn) == "function" then
